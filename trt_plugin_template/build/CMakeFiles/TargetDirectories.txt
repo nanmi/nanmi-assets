@@ -1,0 +1,4 @@
+/home/nvidia/data/zhangbo/workspace/project_cxx/cuda_learning/test1/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/data/zhangbo/workspace/project_cxx/cuda_learning/test1/build/CMakeFiles/edit_cache.dir
+/home/nvidia/data/zhangbo/workspace/project_cxx/cuda_learning/test1/build/CMakeFiles/myplugins.dir
+/home/nvidia/data/zhangbo/workspace/project_cxx/cuda_learning/test1/build/CMakeFiles/test1.dir
