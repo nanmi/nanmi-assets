@@ -1,0 +1,23 @@
+该方法是先将python脚本生成动态链接库so包，然后通过C++调用so包的方式，这样可以隐藏python脚本的内容，加密
+
+
+第一步。通过cython打包成so包
+新建一个setup.py与script_function.py同路径
+
+```python
+from distutils.core import setup
+from Cython.Build import cythonize
+ 
+setup(ext_modules = cythonize(["your_file.py"]))
+```
+
+用cython来将Python脚本打包成动态链接库.so
+```shell
+$ python setup.py build_ext
+```
+就可以发现在当前文件夹里多了一个“build”文件夹，下面的lib.linux-x86_64-2.7文件夹里面的your_file.so就是我们编译成功的动态链接库了。
+
+
+
+
+
