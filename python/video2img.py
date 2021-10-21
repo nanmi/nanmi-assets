@@ -37,7 +37,7 @@ class GetFrame():
         video_path = os.path.join(self.filepath, video_name)
         video_capture = cv2.VideoCapture(video_path)
         fps = video_capture.get(cv2.CAP_PROP_FPS)
-        self.interval = 25
+        self.interval = 3
         # self.interval = int(fps)
         print("the video fps is {} and interval is {}".format(int(fps), self.interval))
 
