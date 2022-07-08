@@ -43,7 +43,6 @@ def plot_one_box(x, img, color=None, label=None, line_thickness=None):
         line_thickness: int
     return:
         no return
-
     """
     tl = (
         line_thickness or round(0.002 * (img.shape[0] + img.shape[1]) / 2) + 1
