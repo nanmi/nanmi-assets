@@ -56,7 +56,7 @@ class GetFrame():
                     j += 1
 
                     save_name = save_path + '/' + video_name.split(self.video_class)[0] + \
-                        '_' + str(j) + '_' + str(i) + '.jpg'
+                        '_' + str(j).zfill(zero_fill_length) + '_' + str(i).zfill(zero_fill_length) + '.jpg'
 
                     # frame = np.rot90(frame, -1)
                     cv2.imwrite(save_name, frame)
