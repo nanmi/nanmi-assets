@@ -43,7 +43,8 @@ class GetFrame():
 
         i = 0
         j = 0
-
+        zero_fill_length = 4
+        
         while True:
             success, frame = video_capture.read()            
             if not success:
