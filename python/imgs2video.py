@@ -1,4 +1,6 @@
 import os
+import platform
+from PIL import Image
 
 class Img2video:
     """
@@ -24,14 +26,25 @@ class Img2video:
                 print("Fill zeros is 0")
                 break
 
-    def imgs2video_command(self, fps=8):
-        self.rename()
-        os.system(f'ffmpeg -y -r {fps} -i ./{self.imgs_folder}/ac-1_%0{self.fill_zeros}d{self.format_} -vcodec h264_nvenc test.mp4')
+    def imgs2video_command(self, fps=8, output_video_name='test.mp4'):
+        example_img = self.files[1]
+        img0 = Image.open(self.imgs_folder + '/' + example_img)
+        if not example_img.startswith('ac-1_'):
+            self.rename()
+        print('images has format with ac-1_*')
+        exe_file = ''
+        if platform.system().lower() == 'windows':
+            exe_file = 'ffmpeg.exe'
+        elif platform.system().lower() == 'linux':
+            exe_file = 'ffmpeg'
+        else:
+            print('system platform is not detected')
+        os.system(f'{exe_file} -y -r {fps} -i ./{self.imgs_folder}/ac-1_%0{self.fill_zeros}d{self.format_} -s {img0.width}x{img0.height} -vcodec h264_nvenc {output_video_name}')
 
 
 
 if __name__ ==  '__main__':
-    input_folder = './tt'
+    input_folder = './水位-桥墩'
     output_folder = '.'
     ins = Img2video(input_folder, output_folder)
-    ins.imgs2video_command()
+    ins.imgs2video_command(fps=6)
