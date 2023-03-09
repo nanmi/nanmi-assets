@@ -1,0 +1,221 @@
+{
+    "time_inteval":600,
+
+    "汉丹线辛安渡桥": [
+        { "camera_name":"10号桥墩上游方向"  , "url":"rtsp://admin:jiaxun123@192.168.170.66:554" }, 
+        { "camera_name":"10号桥墩下游方向"  , "url":"" }, 
+        { "camera_name":"11号桥墩上游方向"  , "url":"" },
+        { "camera_name":"6号桥墩上游方向"   , "url":"" }, 
+        { "camera_name":"8号桥墩下游方向"   , "url":"" }, 
+        { "camera_name":"8号桥墩上游方向"   , "url":"" }
+    ],
+    "湘渝线汉江大桥上行": [
+        { "camera_name":"20号桥墩上游方向"  , "url":"" }, 
+        { "camera_name":"25号桥墩上游方向"  , "url":"" }, 
+        { "camera_name":"34号桥墩上游方向"  , "url":"" },
+        { "camera_name":"34号桥墩下游方向"  , "url":"" }, 
+        { "camera_name":"38号桥墩上游方向"  , "url":"" }, 
+        { "camera_name":"38号桥墩下游方向"  , "url":"" },
+        { "camera_name":"43号桥墩上游方向"  , "url":"" }, 
+        { "camera_name":"48号桥墩上游方向"  , "url":"" }, 
+        { "camera_name":"襄阳方向上游河堤"  , "url":"" },
+        { "camera_name":"襄阳方向下游河堤"  , "url":"" }, 
+        { "camera_name":"重庆方向上游河堤"  , "url":"" }, 
+        { "camera_name":"重庆方向下游河堤"  , "url":"" }
+    ],
+    "汉丹线隔蒲潭桥": [
+        { "camera_name":"16号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"18号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"18号桥墩下游方向" , "url":"" },
+        { "camera_name":"20号桥墩上游方向" , "url":"" },
+        { "camera_name":"20号桥墩下游方向" , "url":"" },
+        { "camera_name":"21号桥墩下游方向" , "url":"" }
+    ],
+    "汉丹线唐白河桥": [
+        { "camera_name":"5号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"5号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"7号桥墩上游方向" , "url":"" },
+        { "camera_name":"7号桥墩下游方向" , "url":"" },
+        { "camera_name":"8号桥墩上游方向" , "url":"" },
+        { "camera_name":"8号桥墩下游方向" , "url":"" },
+        { "camera_name":"9号桥墩上游方向" , "url":"" },
+        { "camera_name":"9号桥墩下游方向" , "url":"" }
+    ],
+    "焦柳线襄阳汉江大桥": [
+        { "camera_name":"1号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"1号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"2号桥墩上游方向" , "url":"" },
+        { "camera_name":"2号桥墩下游方向" , "url":"" },
+        { "camera_name":"3号桥墩上游方向" , "url":"" },
+        { "camera_name":"3号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"柳州方向上游河堤" , "url":"" },
+        { "camera_name":"柳州方向下游河堤" , "url":"" },
+        { "camera_name":"焦作方向上游屋顶" , "url":"" },
+        { "camera_name":"焦作方向上游河堤" , "url":"" },
+        { "camera_name":"焦作方向下游屋顶" , "url":"" },
+        { "camera_name":"焦作方向下游河堤" , "url":"" }
+    ],
+    "襄渝线汉江大桥-下行": [
+        { "camera_name":"36号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"38号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"41号桥墩上游方向" , "url":"" },
+        { "camera_name":"43号桥墩下游方向" , "url":"" },
+        { "camera_name":"襄阳方向上游河堤" , "url":"" },
+        { "camera_name":"襄阳方向下游河堤" , "url":"" },
+        { "camera_name":"重庆方向上游河堤" , "url":"" },
+        { "camera_name":"重庆方向下游河堤" , "url":"" }
+    ],
+    "京广汉水桥": [
+        { "camera_name":"3号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"4号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"5号桥墩上游方向" , "url":"" }
+    ],
+    "京广线武汉长江大桥": [
+        { "camera_name":"1号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"2号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"2号桥墩下游方向" , "url":"" },
+        { "camera_name":"3号桥墩上游方向" , "url":"" },
+        { "camera_name":"4号桥墩上游方向" , "url":"" },
+        { "camera_name":"4号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"5号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"5号桥墩下游方向" , "url":"" },
+        { "camera_name":"6号桥墩上游方向" , "url":"" },
+        { "camera_name":"6号桥墩下游方向" , "url":"" },
+        { "camera_name":"7号桥墩下游方向" , "url":"" }
+    ],
+    "滠武线天兴洲长江大桥": [
+        { "camera_name":"滠武线天兴洲长江大桥0号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"滠武线天兴洲长江大桥0号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"滠武线天兴洲长江大桥1号桥墩上游方向" , "url":"" },
+        { "camera_name":"滠武线天兴洲长江大桥1号桥墩下游方向" , "url":"" },
+        { "camera_name":"滠武线天兴洲长江大桥2号桥墩上游方向" , "url":"" },
+        { "camera_name":"滠武线天兴洲长江大桥2号桥墩下游方向" , "url":"" },
+        { "camera_name":"滠武线天兴洲长江大桥3号桥墩上游方向" , "url":"" },
+        { "camera_name":"滠武线天兴洲长江大桥3号桥墩下游方向" , "url":"" }
+    ],
+    "宜万线宜昌长江大桥": [
+        { "camera_name":"12号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"12号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"13号桥墩上游方向" , "url":"" },
+        { "camera_name":"13号桥墩下游方向" , "url":"" },
+        { "camera_name":"31号桥墩上游方向" , "url":"" },
+        { "camera_name":"31号桥墩下游方向" , "url":"" }
+    ],
+    "京九线淮滨淮河桥": [
+        { "camera_name":"80号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"80号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"81号桥墩上游方向" , "url":"" },
+        { "camera_name":"81号桥墩下游方向" , "url":"" },
+        { "camera_name":"82号桥墩上游方向" , "url":"" },
+        { "camera_name":"82号桥墩下游方向" , "url":"" }
+    ],
+    "京九线浠水桥": [
+        { "camera_name":"6号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"6号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"7号桥墩上游方向" , "url":"" },
+        { "camera_name":"8号桥墩上游方向" , "url":"" },
+        { "camera_name":"8号桥墩下游方向" , "url":"" }
+    ],
+    "京广高铁臻头河特大桥": [
+        { "camera_name":"京广高铁臻头河特大桥109#桥墩" , "url":"" }, 
+        { "camera_name":"京广高铁臻头河特大桥107#桥墩" , "url":"" }
+    ],
+    "京广高铁许漯特大桥": [
+        { "camera_name":"1545#桥墩" , "url":"" }, 
+        { "camera_name":"1548#桥墩" , "url":"" }, 
+        { "camera_name":"1260#桥墩" , "url":"" },
+        { "camera_name":"1261#桥墩" , "url":"" }
+    ],
+    "京广高铁淮河特大桥": [
+        { "camera_name":"236#桥墩" , "url":"" }, 
+        { "camera_name":"249#桥墩" , "url":"" }, 
+        { "camera_name":"238#桥墩" , "url":"" },
+        { "camera_name":"256#桥墩" , "url":"" }
+    ],
+    "京广高铁浉河特大桥": [
+        { "camera_name":"122#桥墩" , "url":"" }, 
+        { "camera_name":"124#桥墩" , "url":"" }
+    ],
+    "京九线巴河桥": [
+        { "camera_name":"21号桥墩下游方向" , "url":"" }
+    ],
+    "焦柳上行小清河桥": [
+        { "camera_name":"6号桥墩上游方向" , "url":"" }, 
+        { "camera_name":"10号桥墩上游方向" , "url":"" }
+    ],
+    "汉联上线小清河桥": [
+        { "camera_name":"6号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"10号桥墩下游方向" , "url":"" }
+    ],
+    "客整牵出线小清河桥": [
+        { "camera_name":"6号桥墩上游方向" , "url":"" }
+    ],
+    "焦上直通小清河桥": [
+        { "camera_name":"8号桥墩下游方向" , "url":"" }
+    ],
+    "焦柳下行小清河桥": [
+        { "camera_name":"6号桥墩上游方向" , "url":"" }
+    ],
+    "汉联下线小清河桥": [
+        { "camera_name":"8号桥墩下游方向" , "url":"" }
+    ],
+    "发南线小清河桥": [
+        { "camera_name":"6号桥墩下游方向" , "url":"" }, 
+        { "camera_name":"8号桥墩下游方向" , "url":"" }
+    ],
+    "唐河双线特大桥": [
+        { "camera_name":"182号桥墩上游" , "url":"" }, 
+        { "camera_name":"182号桥墩下游" , "url":"" }, 
+        { "camera_name":"183号桥墩上游" , "url":"" }, 
+        { "camera_name":"183号桥墩下游" , "url":"" }
+    ],
+    "汉江双线特大桥": [
+        { "camera_name":"88号桥墩上游" , "url":"" }, 
+        { "camera_name":"88号桥墩下游" , "url":"" }, 
+        { "camera_name":"89号桥墩上游" , "url":"" },
+        { "camera_name":"89号桥墩下游" , "url":"" },
+        { "camera_name":"90号桥墩上游" , "url":"" },
+        { "camera_name":"91号桥墩下游" , "url":"" },
+        { "camera_name":"92号桥墩上游" , "url":"" },
+        { "camera_name":"92号桥墩下游" , "url":"" }
+    ],
+    "彭市汉江特大桥": [
+        { "camera_name":"119号桥墩上行" , "url":"" }, 
+        { "camera_name":"119号桥墩下行" , "url":"" }, 
+        { "camera_name":"120号桥墩上行" , "url":"" },
+        { "camera_name":"120号桥墩下行" , "url":"" }
+    ],
+    "沪蓉线跨汉江运河桥": [
+        { "camera_name":"37号桥墩" , "url":"" }, 
+        { "camera_name":"38号桥墩" , "url":"" }
+    ],
+    "沪蓉线通州河桥": [
+        { "camera_name":"7号桥墩" , "url":"" }, 
+        { "camera_name":"8号桥墩" , "url":"" }
+    ],
+    "沪蓉线通顺河桥": [
+        { "camera_name":"87号桥墩" , "url":"" }, 
+        { "camera_name":"88号桥墩" , "url":"" }
+    ],
+    "沪蓉线东荆河桥": [
+        { "camera_name":"149号桥墩" , "url":"" }, 
+        { "camera_name":"150号桥墩" , "url":"" }
+    ],
+    "沪蓉线中干渠桥": [
+        { "camera_name":"42号桥墩" , "url":"" }, 
+        { "camera_name":"43号桥墩" , "url":"" }
+    ],
+    "沪蓉线太湖港桥": [
+        { "camera_name":"59号桥墩" , "url":"" }, 
+        { "camera_name":"60号桥墩" , "url":"" }
+    ],
+    "沪蓉线沮漳河桥": [
+        { "camera_name":"100号桥墩上行" , "url":"" }, 
+        { "camera_name":"100号桥墩下行" , "url":"" }
+    ],
+    "沪蓉线西荆河桥": [
+        { "camera_name":"83号桥墩" , "url":"" }, 
+        { "camera_name":"84号桥墩" , "url":"" }
+    ]
+
+}
