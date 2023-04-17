@@ -1,0 +1,25 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "自定义Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/test", //只需要定位到可执行文件即可，要Debug模式编译或者-g指定
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
