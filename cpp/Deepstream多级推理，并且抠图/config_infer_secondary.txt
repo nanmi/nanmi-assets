@@ -1,0 +1,30 @@
+[property]
+gpu-id=0
+net-scale-factor=0.00392156862745098039
+batch-size=1
+model-color-format=0
+model-engine-file=./model/model-cls.engine
+labelfile-path=sgie_labels.txt
+num-detected-classes=3
+interval=0
+# 0=FP32 and 1=INT8 2:FP16
+network-mode=0
+# gie-unique-id=2
+process-mode=2
+# Integer 0: Detector 1: Classifier 2: Segmentation 3: Instance Segmentation
+network-type=1
+cluster-mode=4
+scaling-filter=1
+scaling-compute-hw=0
+maintain-aspect-ratio=1
+symmetric-padding=1
+parse-classifier-func-name=NvDsInferClassiferParseCustomMobilenetv3
+custom-lib-path=nvdsinfer_custom_impl_plugin/build/libnvdsinfer_custom_lib_impl.so
+# is-classifier=1
+# output-blob-names=output
+# classifier-async-mode=1
+# classifier-threshold=0.51
+
+
+[class-attrs-all]
+pre-cluster-threshold=0.25
