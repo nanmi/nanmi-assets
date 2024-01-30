@@ -3,14 +3,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "自定义Debug",
+            "name": "自定义C++ Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/test/test", //只需要定位到可执行文件即可，要Debug模式编译或者-g指定
-            "args": [],
+            // "request": "attach",
+            // "processId": "${command:pickProcess}", // !添加"processId"配置项
+            "program": "${workspaceFolder}/benchmark_cpp/build/gptSessionBenchmark",
+            "args": ["--model", "qwen",  "--engine_dir", "/workspace/trt_engines/qwen/7B_awq_i8kv/1-gpu/",
+                         "--batch_size", "\"1\"", "--input_output_len", "\"2048,512\"",
+                         "--log_level", "info", "--warm_up", "0", "--num_runs", "1", "--duration", "6"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
+            "environment": [ {"name": "CUDA_VISIBLE_DEVICES", "value": "1"} ],
             "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
@@ -19,7 +23,30 @@
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "sourceFileMap": {
+                "/workspace/TensorRT-LLM/cpp/build_Debug/tensorrt_llm/libtensorrt_llm.so": 
+                    "${workspaceFolder}/TensorRT-LLM/cpp/tensorrt_llm/*"
+            }
+        },
+        {
+            "name": "自定义PythonDebug",
+            "type": "python",
+            "request": "launch",
+            "python": "/usr/bin/python",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--engine_dir",
+                "/workspace/trt_engines/qwen/7B_awq_i8kv/1-gpu",
+                "--tokenizer_dir",
+                "/workspace/hf_model/qwen/7B",
+                "--max_input_length",
+                "2048",
+                "--max_output_len",
+                "512"
+            ],
+            // "env": {"PYTHONPATH": "${workspaceFolder}/libs/"}
         }
     ]
 }
