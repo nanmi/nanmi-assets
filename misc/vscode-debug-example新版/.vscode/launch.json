@@ -30,7 +30,7 @@
             }
         },
         {
-            "name": "自定义PythonDebug",
+            "name": "自定义Python Debug",
             "type": "python",
             "request": "launch",
             "python": "/usr/bin/python",
