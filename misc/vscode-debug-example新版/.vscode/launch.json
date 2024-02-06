@@ -6,8 +6,6 @@
             "name": "自定义C++ Debug",
             "type": "cppdbg",
             "request": "launch",
-            // "request": "attach",
-            // "processId": "${command:pickProcess}", // !添加"processId"配置项
             "program": "${workspaceFolder}/benchmark_cpp/build/gptSessionBenchmark",
             "args": ["--model", "qwen",  "--engine_dir", "/workspace/trt_engines/qwen/7B_awq_i8kv/1-gpu/",
                          "--batch_size", "\"1\"", "--input_output_len", "\"2048,512\"",
@@ -31,11 +29,12 @@
         },
         {
             "name": "自定义Python Debug",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "python": "/usr/bin/python",
             "program": "${file}",
             "console": "integratedTerminal",
+            "env": {"CUDA_VISIBLE_DEVICES": "7"},
             "args": [
                 "--engine_dir",
                 "/workspace/trt_engines/qwen/7B_awq_i8kv/1-gpu",
@@ -46,7 +45,6 @@
                 "--max_output_len",
                 "512"
             ],
-            // "env": {"PYTHONPATH": "${workspaceFolder}/libs/"}
         }
     ]
 }
