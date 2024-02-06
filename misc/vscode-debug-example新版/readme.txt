@@ -1,7 +1,7 @@
 
 1.open vscode
 
-2.install `C/C++` `CMake` `CMake Tools` `GDB Debug` vscode plugins
+2.install `C/C++` `CMake` `CMake Tools` `GDB Debug` `Python Debugger`vscode plugins
 
 3.不管什么路径，什么层次，在vscode打开的工程目录（最外层）下新建.vscode文件夹
 
