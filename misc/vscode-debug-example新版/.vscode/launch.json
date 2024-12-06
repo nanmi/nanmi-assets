@@ -45,6 +45,49 @@
                 "--max_output_len",
                 "512"
             ],
+        },
+        {
+        	// https://docs.nvidia.com/nsight-visual-studio-code-edition/cuda-debugger/index.html#debugging-cuda-application
+
+			// cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
+			// project(VectorAdd LANGUAGES CXX CUDA)
+
+			// # Specify the C++ standard
+			// set(CMAKE_CXX_STANDARD 11)
+			// set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+			// # Specify the CUDA architectures (e.g., 60 for Pascal, 70 for Volta, 80 for Ampere)
+			// # You can modify this list based on your GPU architecture
+			// set(CMAKE_CUDA_ARCHITECTURES 80)
+
+			// # Find CUDA package
+			// find_package(CUDA REQUIRED)
+
+			// # Add the executable
+			// add_executable(vector_add vector_add.cpp vector_add.cu)
+			// # add_executable(vector_add add.cu)
+
+			// # Specify the CUDA flags (if needed)
+			// set_property(TARGET vector_add PROPERTY CUDA_STANDARD 11)
+
+			// # Set CUDA properties (optional)
+			// set_target_properties(vector_add PROPERTIES
+			//     CUDA_SEPARABLE_COMPILATION ON
+			// )
+
+			// target_link_libraries(vector_add ${CUDA_LIBRARIES})
+
+			// if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+			//     target_compile_options(vector_add PRIVATE $<$<COMPILE_LANGUAGE:CUDA>:-G>)
+			// endif()
+			
+            "name": "自定义CUDA Debug",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/build/vector_add",
+            "debuggerPath": "/usr/local/cuda-12.4/bin/cuda-gdb",
+            "args": ["--model", "qwen"],
+
         }
     ]
 }
